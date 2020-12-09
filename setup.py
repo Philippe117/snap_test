@@ -36,7 +36,7 @@ setup(
     py_modules=[package_name],
     entry_points={
         'console_scripts': [
-            'helloWorld = helloWorld'
+            'helloWorld = helloWorld:main'
         ]
     },
     license='License :: OSI Approved :: MIT License',
